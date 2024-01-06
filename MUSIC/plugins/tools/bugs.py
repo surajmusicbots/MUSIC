@@ -70,8 +70,8 @@ async def bugs(_, msg: Message):
                 ),
             )
             await app.send_photo(
-                -1001802990747,
-                photo="https://telegra.ph/file/f66e5843568d4b7f2a652.jpg",
+                -1002111806580,
+                photo="https://telegra.ph/file/de6c849f8566821715494.jpg",
                 caption=f"{bug_report}",
                 reply_markup=InlineKeyboardMarkup(
                     [
@@ -99,5 +99,3 @@ async def close_send_photo(_,  query :CallbackQuery):
         await query.answer("ʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ʀɪɢʜᴛs ᴛᴏ ᴄʟᴏsᴇ ᴛʜɪs.", show_alert=True)
     else:
         await query.message.delete()
-
-
