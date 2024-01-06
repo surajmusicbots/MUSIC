@@ -7,11 +7,11 @@ from config import LOGGER_ID as LOG_GROUP_ID
 from DAXXMUSIC import app  
 
 photo = [
-    "https://telegra.ph/file/1949480f01355b4e87d26.jpg",
-    "https://telegra.ph/file/3ef2cc0ad2bc548bafb30.jpg",
-    "https://telegra.ph/file/a7d663cd2de689b811729.jpg",
-    "https://telegra.ph/file/6f19dc23847f5b005e922.jpg",
-    "https://telegra.ph/file/2973150dd62fd27a3a6ba.jpg",
+    "https://telegra.ph/file/de6c849f8566821715494.jpg",
+    "https://telegra.ph/file/de6c849f8566821715494.jpg",
+    "https://telegra.ph/file/de6c849f8566821715494.jpg",
+    "https://telegra.ph/file/de6c849f8566821715494.jpg",
+    "https://telegra.ph/file/de6c849f8566821715494.jpg",
 ]
 
 
@@ -69,5 +69,3 @@ async def _greet(_, message):
             await app.send_photo(message.chat.id, photo=random.choice(photo), caption=msg, reply_markup=InlineKeyboardMarkup([
             [InlineKeyboardButton(f"𝐊ɪᴅɴᴀᴘ 𝐌ᴇ", url=f"https://t.me/{app.username}?startgroup=true")]
          ]))
-
-
