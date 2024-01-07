@@ -34,11 +34,11 @@ def git():
     if config.GIT_TOKEN:
         GIT_USERNAME = REPO_LINK.split("com/")[1].split("/")[0]
         TEMP_REPO = REPO_LINK.split("https://github.com/surajmusicbots/MUSIC")[1]
-        UPSTREAM_REPO = f"https://{GIT_USERNAME}:{config.GIT_TOKEN}@{TEMP_REPO}"
+        UPSTREAM_REPO = f"https://{surajmusicbots}:{config.GIT_TOKEN}@{https://github.com/surajmusicbots/MUSIC}"
     else:
         UPSTREAM_REPO = config.UPSTREAM_REPO
     try:
-        repo = Repo"https://github.com/surajmusicbots/MUSIC"
+        repo = Repo()
         LOGGER(__name__).info(f"Git Client Found [VPS DEPLOYER]")
     except GitCommandError:
         LOGGER(__name__).info(f"Invalid Git Command")
