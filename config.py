@@ -14,9 +14,9 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 # Add Owner Username without @ 
 OWNER_USERNAME = getenv("OWNER_USERNAME","suraj_saini91")
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME" , "smusic91bot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "YumikooBot")
 # Don't Add style font 
-BOT_NAME = getenv("BOT_NAME" , "smusic91bot")
+BOT_NAME = getenv("BOT_NAME" , "Yumikoo")
 #get Your Assistant User name
 ASSUSERNAME = getenv("ASSUSERNAME" , "MissYumikoo")
 EVALOP = list(map(int, getenv("EVALOP", "2105971379 5360305806 6691393517").split()))
@@ -26,7 +26,7 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", -1001944053795))
+LOGGER_ID = int(getenv("LOGGER_ID", -1001802990747))
 
 # Get this value from  on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID", 6455256474))
@@ -41,7 +41,7 @@ UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
     "https://github.com/surajmusicbots/MUSIC",
 )
-UPSTREAM_BRANCH = getenv("https://github.com/surajmusicbots/MUSIC", "Master")
+UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
@@ -85,7 +85,7 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/de6c849f8566821715494.jpg"
+    "START_IMG_URL", "https://telegra.ph/file/cfbdee8103102bcb2e5da.jpg"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://telegra.ph/file/00360393a15daf7fc4e9d.jpg"
